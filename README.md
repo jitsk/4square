@@ -3,7 +3,7 @@
 
 Simple Module for 4Square Venues
 
-  npm install 4square
+  npm install 4square-venues
 
 ## Notes
 This module will not (as yet) do the oAuth token exchange to get your oAuth access token, it is assumed this is known and stored in a DB or something.
@@ -13,7 +13,7 @@ The oAuth access token is only needed for destructive calls such as addVenue() o
 ## Examples
 
 ```js
-  var foursquare = new require('4square')(CLIENT_ID, CLIENT_SECRET, [OAUTH_ACCESS_TOKEN], [API_DATE_VERSION]);
+  var foursquare = new require('4square-venues')(CLIENT_ID, CLIENT_SECRET, [OAUTH_ACCESS_TOKEN], [API_DATE_VERSION]);
 
   var addParams = { ... }
 
