@@ -30,7 +30,11 @@ The oAuth access token is only needed for destructive calls such as addVenue() o
 
 ## Methods
 foursquare.addVenue(opts, callback)
+
 foursquare.getVenue(opts, callback)
+
 foursquare.getCategories(opts, callback)
+
 foursquare.editVenue(opts, callback)
+
 foursquare.searchVenues(opts, callback)
