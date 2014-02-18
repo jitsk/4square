@@ -1,0 +1,29 @@
+{
+  "name": "4square-venues",
+  "version": "0.0.1",
+  "description": "Simple module for adding, editing or searching Foursquare Venues via the API",
+  "main": "foursquare.js",
+  "dependencies": {
+    "request": "2.33.0",
+    "underscore": "1.5.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MattCollins84/4square.git"
+  },
+  "keywords": [
+    "foursquare",
+    "venues",
+    "api",
+    "add",
+    "edit",
+    "search",
+    "query"
+  ],
+  "author": "Matt Collins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattCollins84/4square/issues"
+  }
+}
