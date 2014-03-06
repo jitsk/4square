@@ -1,6 +1,6 @@
 {
   "name": "4square-venues",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple module for adding, editing or searching Foursquare Venues via the API",
   "main": "foursquare.js",
   "dependencies": {

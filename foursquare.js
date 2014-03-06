@@ -46,7 +46,7 @@ module.exports = function(_id, _secret, _token, _date) {
 
   // parse a response
   var parseResponse = function(response, body, callback) {
-    if (response.statusCode >= 300) {
+    if (response.statusCode >= 300 && response.statusCode != 409) {
       return callback(body, null);
     }
     return callback(null, JSON.parse(body));
